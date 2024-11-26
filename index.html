@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlap Text Example</title>
+    <!-- Link to Google Fonts for Kanit -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <title> Overlap KANIT </title>
+    
+    </head>
+    <body>
+    <header>
+
+    
+        <div class="Text">
+            <h1> KANIT </h1>
+            <h1> KANIT </h1>
+            <h1>KANIT</h1>
+          
+        </div>
+
+    </header>
+
+    <main>
+        <div class="Text">
+
+        </p1> Based in Thailand and released in 2017</p1>
+        </div>
+        
+    </main>
+
+    <div>
+
+    <p3 class="Text">Kanit is a contemporary sans-serif typeface designed by Cadson Demak.
+        It combines Thai and Latin characters, making it versatile for various uses for both digital and print media.
+    </p3> 
+    </div>
+    <p4 class="alphabeth>"  
+        
+ <div class="text" >
+    <h1>CHARACTER SET</h1>
+     <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+        0 1 2 3 4 5 6 7 8 9
+    ! @ # $ % ^ & * ( ) _ + ={ } , . / ? </p>
+    </div>
+   
+    <!-- Font Card - Serif -->
+    <div class='font-card'>
+        <h1>Kanit</h1>
+        <p>Cadson Demak (2017)</p>
+    </div>
+
+    <div class='creator'>
+            <h2>Bold</h2>
+            <h5 class='bold text'>Abc</h5>
+    </div>
+
+          <div class='sample'>
+            <h2>Regular</h2>
+            <p>Abc</p>
+          </div>
+
+          <div class='sample'>
+            <h2>Italic</h2>
+            <p>Abc</p>
+          </div>
+
+   <div> 
+
+
+    <label for="userInput">Enter some text:</label>
+   </div>
+   <div>
+    <input type="text" id="userInput" placeholder="Type something...">
+</div>
+<div>
+    <label for="colorPicker">Choose a color:</label>
+</div>
+<div>
+    <input type="color" id="colorPicker" value="#3498db">
+</div>
+<div>
+    
+    <label for="fontSizeSlider">Adjust font size:</label>
+</div>
+<div>
+    <input type="range" id="fontSizeSlider" min="16" max="220" value="16" class="slider">
+</div>
+<div>
+    <label for="fontSelect">Choose a font style:</label>
+</div>
+<div>
+    <select id="fontSelect">
+    </p9>
+    </div>
+        <option value="'Kanit', sans-serif">Kanit</option>
+        <option value="'kanitlight', sans-serif">kanitlight</option>
+        <option value="'Open Sans', sans-serif">Open Sans</option>
+        <option value="'Lobster', cursive">Lobster</option>
+    </select>
+    
+    <label>
+        <input type="checkbox" id="boldCheckbox"> Bold text
+    </label>
+    
+    <label class="toggle-switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider-round"></span>
+    </label>
+
+     
+    <button onclick="applyChanges()">Apply Changes</button>
+    
+    <p id="output"></p>
+
+   
+
+    <script>
+        function applyChanges() {
+            const userInput = document.getElementById('userInput').value;
+            const selectedColor = document.getElementById('colorPicker').value;
+            const fontSize = document.getElementById('fontSizeSlider').value + 'px';
+            const selectedFont = document.getElementById('fontSelect').value;
+            const isBold = document.getElementById('boldCheckbox').checked;
+            const isDarkMode = document.getElementById('darkModeToggle').checked;
+            
+            const output = document.getElementById('output');
+            output.textContent = userInput;
+            output.style.color = selectedColor;
+            output.style.fontSize = fontSize;
+            output.style.fontFamily = selectedFont;
+            output.style.fontWeight = isBold ? 'bold' : 'normal';
+            output.style.animation = 'fadeIn 2s';
+            
+            document.body.style.backgroundColor = isDarkMode ? '#333' : '#f0f0f0';
+            document.body.style.color = isDarkMode ? '#f0f0f0' : 'white';
+        }
+
+    </script>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+     <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+     <script>
+
+         $( function() {
+             $(".draggable") .draggable();
+         } );
+         </script>
+
+         <img class= "draggable"  src= "CHITO.png" style= "width: 600px;">
+         <img class= "draggable"  src= "CHETO.png" style= "width: 600px;">
+
+
+    <class="flex items-center justify-center min-h-screen bg-gray-100">
+        <p class="hover-weight text-4xl text-center">Hover over this sentence to see the weight change.</p>
+    
+            
+    <footer>
+        2024 Kanit website
+       
+       </footer>
+       <p2> WHAT KANIT IS MADE FOR </p2>
+   
+       <div class="box"> 
+           <p1></p1></p>
+       </div>
+       
+
+</html>ss
