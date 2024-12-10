@@ -193,7 +193,7 @@ nav {
     text-align: center;
 }
 .dsTrial:hover {
-    filter: drop-shadow( #ea36ae8 5px 5px);
+    filter: drop-shadow( #ea36a8 5px 5px);
 }
 
 .grid{
@@ -277,29 +277,54 @@ nav {
     color: #ea36a8;
 
     }
+
+    style p {
+        font-family: 'Kanit', sans-serif;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .style :hover,
+    .style .expanded {
+        transform: scale(1.2);
+    }
         .light {
             font-weight: 200px;
             font-size: 40px;
             text-align:center;
             color: #ea36a8;
+            font-style: light;
         }
         .regular {
             font-weight: 400;
-            font-size: 40px;
+            font-size: 50px;
             text-align:center;
             color: #ea36a8;
+            font-style: normal;
+
+        }
+        .italic {
+            font-weight: 600;
+            font-size: 60px;
+            text-align:center;
+            color: #ea36a8;
+            font-style:italic;
+
+
         }
         .semi-bold {
             font-weight: 600;
-            font-size: 40px;
+            font-size: 70px;
             text-align:center;
             color: #ea36a8;
+            font-style: oblique;
         }
         .bold {
             font-weight: 800;
-            font-size: 40px;
+            font-size: 80px;
             text-align:center;
             color: #ea36a8;
+            font-style: bold;
         }
 
         @font-face {
